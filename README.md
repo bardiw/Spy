@@ -59,8 +59,36 @@ Saves readable credentials to ch_pass.txt.
 ---
 
 ## 📂 Output Files
-File Name	Content
-kl.txt	Logged keystrokes
-spycam.png	Captured webcam image
-screenshot.png	Captured screen image
-ch_pass.txt	Extracted Chrome credentials
+kl.txt – Contains logged keystrokes.
+
+spycam.png – Captured webcam image.
+
+screenshot.png – Screenshot of the current screen.
+
+ch_pass.txt – Extracted saved passwords from Chrome.
+
+---
+
+## 🛡️ Legal & Ethical Use
+This tool demonstrates system vulnerabilities for educational cybersecurity research. Misusing it could:
+
+Violate privacy laws (e.g., GDPR, HIPAA)
+
+Breach ethical and professional codes
+
+Lead to prosecution or academic sanctions
+
+✔️ Always test on systems you own or with explicit written consent.
+
+---
+
+## ❗ Important Notes
+- Chrome password extraction only works on local accounts with unencrypted login storage.
+
+- Antivirus software may flag this script as malicious due to its behavior.
+
+- The script currently runs all modules sequentially. You can modularize them for specific use cases.
+
+--- 
+
+## 
