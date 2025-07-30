@@ -37,22 +37,22 @@ pip install pynput opencv-python pyautogui pycryptodomex pypiwin32
 
 ## 🧰 How It Works
 1. Keylogger
-Captures keystrokes for 10 seconds.
+- Captures keystrokes for 10 seconds.
 
-Logs standard keys and maps special keys (Enter, Space, etc.).
+- Logs standard keys and maps special keys (Enter, Space, etc.).
 
-Stores results in kl.txt.
+- Stores results in kl.txt.
 
 2. Webcam Capture
-Captures a single frame using OpenCV and saves it as spycam.png.
+- Captures a single frame using OpenCV and saves it as spycam.png.
 
 3. Screenshot
-Takes a screenshot using pyautogui and saves it as screenshot.png.
+- Takes a screenshot using pyautogui and saves it as screenshot.png.
 
 4. Chrome Password Extraction
-Uses win32crypt and Cryptodome to decrypt the Chrome password database.
+- Uses win32crypt and Cryptodome to decrypt the Chrome password database.
 
-Saves readable credentials to ch_pass.txt.
+- Saves readable credentials to ch_pass.txt.
 
 ⚠️ Works only on Windows, as it accesses system-specific Chrome storage files.
 
@@ -72,11 +72,11 @@ ch_pass.txt – Extracted saved passwords from Chrome.
 ## 🛡️ Legal & Ethical Use
 This tool demonstrates system vulnerabilities for educational cybersecurity research. Misusing it could:
 
-Violate privacy laws (e.g., GDPR, HIPAA)
+- Violate privacy laws (e.g., GDPR, HIPAA)
 
-Breach ethical and professional codes
+- Breach ethical and professional codes
 
-Lead to prosecution or academic sanctions
+- Lead to prosecution or academic sanctions
 
 ✔️ Always test on systems you own or with explicit written consent.
 
