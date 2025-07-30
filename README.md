@@ -91,4 +91,11 @@ This tool demonstrates system vulnerabilities for educational cybersecurity rese
 
 --- 
 
-## 
+## 📌 To Do
+* Add OS checks (Windows-only logic)
+
+* Add email sending for logs (optional & controlled)
+
+* Modularize features (toggle via CLI flags or UI)
+
+
