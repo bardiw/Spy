@@ -100,7 +100,7 @@ This tool demonstrates system vulnerabilities for educational cybersecurity rese
 
 ---
 
-## ## 👨‍💻 Author
+## 👨‍💻 Author
  Bardia Javadi   
   📧 bardia.javadi.2003@gmail.com    
   🌐 GitHub: [@bardiw](https://github.com/bardiw)   
